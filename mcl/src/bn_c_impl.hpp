@@ -125,8 +125,8 @@ int mclBn_init(int curve, int maxUnitSize)
 		cp = mcl::bn::CurveFp462;
 		break;
 #endif
-  case mclBn_CurveSNARK1:
-	  cp = mcl::bn::CurveSNARK1;
+	case mclBn_CurveSNARK1:
+		cp = mcl::bn::CurveSNARK1;
 	break;
 	default:
 		if (g_fp) fprintf(g_fp, "MCLBN_init:not supported curve %d\n", curve);
